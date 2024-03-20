@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+  <title>Weather App</title>
+</head>
+<body>
+<main>
+  <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+  <section id="weatherContainer">
+    <div class="flex wrapper parent-container">
+      <div class="flex flex-col">
+        <h1>Toronto, Ontario</h1>
+        <time datetime=""></time>
+        <div class="flex">
+          <img src="" alt="">
+          <div class="temp-container flex flex-col">
+            <span id="temp"></span>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="flex flex-col">
+          <h2>High</h2>
+          <p id="high"></p>
+        </div>
+        <div class="flex flex-col">
+          <h2>Wind</h2>
+          <p id="wind"></p>
+        </div>
+        <div class="flex flex-col">
+          <h2>Sunrise</h2>
+          <p id="sunrise"></p>
+        </div>
+        <div class="flex flex-col">
+          <h2>Low</h2>
+          <p id="low"></p>
+        </div>
+        <div class="flex flex-col">
+          <h2>Rain</h2>
+          <p id="rain"></p>
+        </div>
+        <div class="flex flex-col">
+          <h2>Sunset</h2>
+          <p id="sunset"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="./script.js"></script>
+</body>
+</html>
